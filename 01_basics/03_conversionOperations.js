@@ -46,3 +46,32 @@ let stringMarks = String(marks);
 console.log(stringMarks);
 console.log(typeof stringMarks);
 
+// ************************** OPERATIONS ******************************
+
+let value = 4;
+let negativeValue = -value;
+console.log(negativeValue);
+
+console.log(2 + 2);
+console.log(2 - 2);
+console.log(2 * 2);
+console.log(2 / 2);
+console.log(2 ** 2);
+console.log(2 % 2);
+
+let str1 = "hello";
+let str2 = " venkat";
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log("1" + 2);
+console.log(typeof (1 + "2")); //in both cases output is 12 because js implicitly converts number to string
+
+console.log("1" + 2 +2); //o/p :- 122
+console.log(1 + 2 + "2"); // o/p:-32
+
+console.log(true);
+console.log(+true);
+//console.log(true+);//causes error
+console.log(+"");
+
