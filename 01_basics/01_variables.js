@@ -12,6 +12,6 @@ accountCity = "banglore"
 prefer not to use 
 because  of issues in block scope and functional scope
 */
-
+console.log(accountCity);
 console.log(accountId);
-console.table([accountEmail,accountPassword, accountCity])
+console.table([accountEmail,accountPassword, accountCity]);
